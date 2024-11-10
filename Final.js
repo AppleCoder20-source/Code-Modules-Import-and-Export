@@ -9,8 +9,6 @@ function avgs(numbers){
    }
    console.log(avgs([1,2,3,4])) 
 
-
-
 const people = [
         { 
             id: "42",
