@@ -7,17 +7,7 @@ export function sum(numbers){
 }
 console.log(sum([1,2,3,4]))
 
-function avg(numbers){
-    let count = 0
-    for( let i = 0; i < numbers.length; i++){
-       count += numbers[i]
-    }
-    let average = count / numbers.length
-    return average
-   }
-   console.log(avg([1,2,3,4])) 
-
-   function findLongestString(strings) {
+  function findLongestString(strings) {
     let longestStr = ""
     for (let i = 0; i < strings.length; i++) {
       if (strings[i].length > longestStr.length) {
