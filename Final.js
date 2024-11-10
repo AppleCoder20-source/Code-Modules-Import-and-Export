@@ -3,7 +3,7 @@
 import {sum} from './Functions.js'
 
 function avgs(numbers){
-   let ret = sum(numbers)
+    let ret = sum(numbers)
     let average = ret / numbers.length
     return average
    }
