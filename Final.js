@@ -3,8 +3,8 @@
 import {sum} from './Functions.js'
 
 function avgs(numbers){
-    let ret = sum(numbers)
-    let average = ret / numbers.length
+    let importSum = sum(numbers)
+    let average = importSum / numbers.length
     return average
    }
    console.log(avgs([1,2,3,4])) 
