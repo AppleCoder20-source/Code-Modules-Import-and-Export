@@ -1,5 +1,5 @@
-function sum(numbers){
- count = 0 
+export function sum(numbers){
+ let count = 0 
  for( let i = 0; i < numbers.length; i++){
     count += numbers[i]
   }
@@ -52,5 +52,3 @@ function avg(numbers){
   }
 }
 console.log(recursion(10)); // Show output for numbers 1-10
-
-

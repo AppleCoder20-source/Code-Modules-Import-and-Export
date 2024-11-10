@@ -1,5 +1,15 @@
 //Part 2 
 //Sort by age 
+import {sum} from './Functions.js'
+
+function avgs(numbers){
+   let ret = sum(numbers)
+    let average = ret / numbers.length
+    return average
+   }
+   console.log(avgs([1,2,3,4])) 
+
+
 
 const people = [
         { 
