@@ -7,7 +7,6 @@ function avgs(numbers){
     let average = importSum / numbers.length
     return average
    }
-   console.log("This is running from FInal.js")
    console.log(avgs([1,2,3,4])) 
 
 const people = [
